@@ -1,6 +1,7 @@
 {
   "name": "antd-console-components-demo",
   "version": "1.0.0",
+  "homepage": "./",
   "dependencies": {
     "@shhhplus/react-router-relative-link": "^0.1.7",
     "antd": "^4.1.3",

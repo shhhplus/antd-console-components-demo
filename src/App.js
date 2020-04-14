@@ -1,9 +1,5 @@
 import React, { useCallback, Fragment } from 'react';
-import {
-  LogoutOutlined,
-  SettingOutlined,
-  UserOutlined,
-} from '@ant-design/icons';
+import { SettingOutlined, UserOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 import { App, Login, headers } from 'antd-console-components';
 import menus from './menus';

@@ -66,7 +66,7 @@ const logout = () => {
       const success = true;
       if (success) {
         user.set(null);
-        resolve(true);
+        resolve();
       } else {
         reject('对不起，退出失败。请重试。');
       }

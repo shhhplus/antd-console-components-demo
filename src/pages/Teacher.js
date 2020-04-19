@@ -99,7 +99,7 @@ export default () => {
               <KeywordSearch
                 left={extra}
                 onSubmit={(keyword) => {
-                  valuesRef = { keyword };
+                  valuesRef.current = { keyword };
                   instanceRef.current.search({
                     current: 1,
                   });
